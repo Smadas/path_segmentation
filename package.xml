@@ -2,18 +2,19 @@
 <package format="2">
   <name>path_segmentation</name>
   <version>0.0.0</version>
-  <description>The path_segmentation package</description>
+  <description>The path_segmentation package contains class for segmenting cv::Mat image with a path.
+    Uses KittiSeg package with Tensorflow to segment path and then outputs it as cv::Mat.</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="smadas@todo.todo">smadas</maintainer>
+  <maintainer email="adam.sojka@smadas.net">Adam Sojka</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
   <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
-  <license>TODO</license>
+  <license>Apache-2.0</license>
 
 
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
