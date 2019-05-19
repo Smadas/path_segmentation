@@ -4,6 +4,7 @@ The path_segmentation package contains class for segmenting cv::Mat image with a
 Uses KittiSeg package with Tensorflow to segment path and then outputs it as cv::Mat.
 
 
+
 # Install python dependencies
 1. Clone KittySeg from github
 2. Change contents of requirements.txt to:
@@ -15,3 +16,5 @@ commentjson>=0.6
 tf-nightly>=1.14.1.dev20190519
 3. Install cuda according to https://gist.github.com/Mahedi-61/2a2f1579d4271717d421065168ce6a73
 4. Install KittySeg according to its readme
+
+Output of evaluate.py is in drirectory ${KittiSeg}/RUNS/KittiSeg_pretrained/analyse/images
