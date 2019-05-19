@@ -11,6 +11,8 @@ int main(int argc, char **argv)
 
     ros::NodeHandle n;
 
+    ROS_INFO_STREAM("Test segmentation initialized!");
+
     ros::spin();
 
     return 0;
