@@ -150,6 +150,9 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
+add_executable(test_segmentation_node src/test_segmentation_node.cpp)
+target_link_libraries(test_segmentation_node ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
